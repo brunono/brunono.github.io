@@ -1,0 +1,13 @@
+body {
+background-color: pink;
+}
+ul{
+	list-style-type: none;
+	text-align: center;
+	background-color: green;
+	height: 37px;
+	position: relative;
+}
+li{
+	float:left;display:inline;padding-left:10px;padding-right:10px;padding-top:10px;
+}
