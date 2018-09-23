@@ -1,25 +1,48 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<title>Frisbee</title>
 		<meta charset=UTF-8>
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel = "stylesheet">
+		<link href = "css/styles.css" rel = "stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
-		<title>Frisbijs</title>
 	<body>
-		<section class="main">
-			<header>
-				<img src="./images/frs.jpg" style="width: 300px;	height: 150px;">
-			</header>
-				<ul>
-					<li><a href="index.html">Jaunumi</a></li>
-					<li><a href="./frisbijs.html">Frisbijs</a></li>
-					<li><a href="./turniri.html">Turnīri</a></li>
-					<li><a href="./izlases.html">Izlases</a></li>
-					<li><a href="./forumi.html">Forumi</a></li>
-					<li><a href="./kontaktinfo.html">Kontaktinformācija</a></li>
-				</ul>
-			<aside class="rightaside"><a href="">Jaunumi</a></aside>
-			<aside class="rightaside"><a href="">Nesenie raksti Nesenie raksti Nesenie raksti</a></aside>
-		</section>
+	<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="./index.html">Frisbijs.lv</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Jaunumi</a></li>
+		<li><a href="./frisbijs.html">Frisbijs</a></li>
+		<li><a href="./turniri.html">Turnīri</a></li>
+		<li><a href="./izlases.html">Izlases</a></li>
+		<li><a href="./forumi.html">Forumi</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Kontaktinformācija <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="https://www.facebook.com/latvijasfrisbijafederacija/">Facebook</a></li>
+            <li><a href="https://www.instagram.com/frisbijs.lv/">Instagram</a></li>
+			<li><a href="https://www.youtube.com/user/frisbijs">Youtube</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 	</body>
 </html>
+  
